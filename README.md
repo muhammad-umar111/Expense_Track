@@ -3,14 +3,9 @@
 A new Flutter project.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+i.we first authenticate through firebase.
+*SignUP and Login...
+ii..Then we store our expense  to cloud firestore  in firebase..
+iii...We also fetch the list of expenses from firebase and show on a screen with date and time .
+iv....we also add the total amount that we have..
+v..... we use bloc stateManagement pattern to fetch list of expenses
